@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+.main1{width: 100%;height: 280px; background-image: url(../img/main-02.jpg);background-position: 80% 90%;background-size: cover;}
+.main1 .wrap{width: 1200px;height: 100%; position: relative;margin: 0 auto;}
+.main1  .wrap .txt{position: absolute;right: 0px; top:50%;width: calc(100% / 3);font-size: 36px;font-weight: bold;word-break: keep-all;color: #363636;}
+
+.main2{background-color: #d3dce5;padding: 20px 0;}
+.main2 .wrap{width: 1200px;margin: 0 auto;font-size: 0;}
+.main2 .wrap .img_quick{width:calc(100% / 12);padding: 0 10px;display: inline-block;font-size: 16px;}
+.main2 .wrap .img_quick a{}
+.main2 .wrap .img_quick a img{width: 80px;height: 76px;}
+
+.main3{background-color: #efedef;}
+.main3 .wrap{width: 1200px;margin: 0 auto;font-size: 0;padding: 20px 0;}
+.main3 .wrap .box{width: 280px;height: 280px;background-color: #004ea1; display: inline-block;vertical-align: top;padding: 20px;margin: 0 10px;}
+.main3 .wrap .box:nth-child(2){background-color: #03d365;}
+.main3 .wrap .box:nth-child(3){width: 580px; background-image: url(../img/cont-001.jpg);background-position: 50% 50%;background-size: cover;margin-bottom: 24px;}
+.main3 .wrap .box:nth-child(6){background-color: #03d365;}
+
+.main3 .wrap .box .txt{position: relative;height: 100%;}
+.main3 .wrap .box .txt h3{font-size: 36px;color: #fff;padding-bottom: 30px;color: #fff;}
+.main3 .wrap .box:nth-child(3) .txt h2{font-size: 36px;color: #363636;padding-bottom: 50px;}
+.main3 .wrap .box:nth-child(3) .txt h3{font-size: 24px;color: #363636;}
+.main3 .wrap .box .txt p{font-size: 18px;color: #fff;}
+
+.main3 .wrap .box .txt ul{position: absolute;width: 100%;height: 40px;left: 0;bottom: 0;border-top: 2px solid #fff;border-left: 2px solid #fff;}
+.main3 .wrap .box .txt ul li{display: inline-block; width: 50%;border-right: 2px solid #fff;border-bottom: 2px solid #fff;}
+.main3 .wrap .box .txt ul li a{display: block;line-height: 36px;font-size: 18px;color: #fff;text-align: center;}
+.main3 .wrap .box .txt ul li:hover a{background-color:rgba(255, 255, 255, 0.4);}
+
+.main3 .wrap .box:nth-child(3) .txt .btn_2{position: absolute;bottom: 0;border: 2px solid #004ea1;background-color: #fff;font-size: 0;}
+.main3 .wrap .box:nth-child(3) .txt .btn_2 input{background-color: #fff;outline: none;border: none;width: 232px;height: 32px;display: inline-block;font-size: 16px;padding: 0 10px;}
+.main3 .wrap .box:nth-child(3) .txt .btn_2 button{background-color: #004ea1;outline: none;border: none;width: 120px;height: 40px;cursor: pointer;}
+.main3 .wrap .box:nth-child(3) .txt .btn_2 button a{color: #fff;font-size: 16px;}
+
+.main3 .wrap .box:nth-child(4){width: 580px;background-color: #fff;font-size: 0;}
+.main3 .wrap .box:nth-child(4) .img_4{display: inline-block;font-size: 16px;}
+.main3 .wrap .box:nth-child(4) .img_4 a{display: block;}
+.main3 .wrap .box:nth-child(4) .img_4 a img{display: block;width: 240px;height: 240px;}
+.main3 .wrap .box:nth-child(4) .txt{display: inline-block;width: calc(100% - 240px);vertical-align: top;padding-left: 20px;}
+.main3 .wrap .box:nth-child(4) .txt h2{font-size: 36px;padding-bottom: 43px;}
+.main3 .wrap .box:nth-child(4) .txt p{font-size: 14px;color: #363636;word-break: break-all;}
+.main3 .wrap .box:nth-child(4) button{width: 160px;height: 40px; position: absolute;bottom: 0;right: 0;border: 2px solid #004ea1;}
+.main3 .wrap .box:nth-child(4) button a{display: block;line-height: 36px;font-size: 16px;color: #004ea1;}
+
+
+.main3 .wrap .box:nth-child(5) .txt p{word-break: break-all;}
+.main3 .wrap .box:nth-child(6) .txt p{word-break: break-all;}
+
+
+
+
+/* 선생님 예시-------
+#cont_01{background-color: #efedef;}
+#cont_01 .wrap{width: 1200px;height: auto;margin: 0 auto;font-size: 0;padding-top: 20px;}
+#cont_01 .wrap article{width: calc(25%-20px);height: 280px;margin: 0 10px 20px;display: inline-block;vertical-align: top;background-color: #004ea1;background-size: cover;background-position: 50% 50%;padding: 20px;} */
+
+.bottom{width: 100%;height: 464px; background-image: url(../img/health-care.jpg);background-size: cover;background-position: 50% 50%;position: relative;}
+.bottom .wrap{width: 1200px; margin: 0 auto;}
+.bottom .wrap .txt_bt{width:calc(100% / 1.5); position: absolute;right: 0; top:calc(100% / 3);}
+/*선생님 예시
+.#banner .wrap .banner_cont{positon:absolute;width:400px;top:50%;right:100px;transform:translateY(-50%);text-align:center;)
+*/
+.bottom .wrap .txt_bt h2{font-size: 36px;color: #363636;text-align: center;}
+/*선생님예시
+.#banner .wrap .banner_cont h2{font-size:36px;color:#363636;padding-bottom:40px;
+    -----img에 padding-top을 직접적으로 주는것은 좋지않은 방법이다.--------
+*/
+.bottom .wrap .logo_2{padding-top: 42px;text-align: center;}
+.bottom .wrap .logo_2 a{display: inline-block;}
+.bottom .wrap .logo_2 a img{display: block;height: 65px;}
+
+.bottom_2{width: 100%;padding-bottom: 40px;}
+.bottom_2 .wrap{width: 1200px;margin: 0 auto;padding-top: 10px;}
+.bottom_2 .wrap .title{text-align: center;padding-bottom: 20px;}
+.bottom_2 .wrap .title h2{font-size: 36px;color: #363636;line-height: 60px;}
+
+.bottom_2 .wrap .sub{text-align: center;}
+.bottom_2 .wrap .sub h3{font-size: 20px;color: #363636;line-height: 40px;padding-bottom: 20px;}
+
+.bottom_2 .wrap .tt_box{width: 100%;font-size: 0;}
+.bottom_2 .wrap .tt_box .box_img{width: 280px;height: 375px;background-image: url(../img/cont-002.jpg);background-position: 50% 50%;background-size: cover;display: inline-block;margin: 0 10px;vertical-align: top;}
+/*선생님 예시 ↑width:calc(25% - 20px) ; height:376px*margin:0 10px 20px*/
+.bottom_2 .wrap .tt_box .box_img .bx{text-align: center;padding: 20px;font-size: 0;}
+.bottom_2 .wrap .tt_box .box_img .bx .bx_txt{padding-top: 40px;}
+.bottom_2 .wrap .tt_box .box_img .bx .bx_txt h4{font-size: 24px;color: #fff;padding-bottom: 18px;}
+.bottom_2 .wrap .tt_box .box_img .bx .bx_txt p{font-size: 18px;font-weight: bold;color: #fff;padding-top: 20px;/*padding:20px 30px 25px;line-height:1.2_선생님 예시*/}
+
+.bottom_2 .wrap .tt_box .box_img .bx .bx_txt .line{display: inline-block; width: 80px; border-bottom: 4px solid #fff;}
+/*선생님 예시
+#cont_02 .wrap .comt .cont_box .bar{width:80pc; height:4px; background-color:#fff;margin:0 auto;
+일정공간(width 존재하고 height 존재할때)을 가로방향으로 가운데 배치하는 방법
+#1. display:bolck인 경우:
+본인에게 margin:0 auto;를 선언한다.
+#2. diplay:inline-block인 경우,
+부모 또는 그 이상의 조상에게 text-align:center를 부여한다.
+<position:relative를 이용한 방법>
+.bottom_2 .wrap .tt_box .box_img .bx .bx_txt h4{font-size:24px;padding-top:40px; line-height:1px; padding-bottom:22px; color:#fff;position:relative;}
+.bottom_2 .wrap .tt_box .box_img .bx .bx_txt h4:after{content:"";position:absolute;display:block;width:80px;height:4px;background-color:#fff;bottom:0;left:50%;tranform:translateX(-50%)}
+*/
+.bottom_2 .wrap .tt_box .box_img:nth-child(2){background-image: url(../img/cont-003.jpg);}
+.bottom_2 .wrap .tt_box .box_img:nth-child(3){background-image: url(../img/cont-004.jpg);}
+.bottom_2 .wrap .tt_box .box_img:nth-child(4){background-image: url(../img/cont-005.jpg);}
+
+.bottom_2 .wrap .tt_box .box_img:nth-child(4) .bx .bx_txt .sns{padding-top: 30px;width: 120px;font-size: 0;margin: 0 auto;}
+.bottom_2 .wrap .tt_box .box_img:nth-child(4) .bx .bx_txt .sns ul{}
+.bottom_2 .wrap .tt_box .box_img:nth-child(4) .bx .bx_txt .sns ul li{ border:2px solid #fff ;line-height: 38px;}
+.bottom_2 .wrap .tt_box .box_img:nth-child(4) .bx .bx_txt .sns ul li a{display: block; font-size: 18px;font-weight: bold;color: #fff;transition: background-color 0.5s;}
+
+.bottom_2 .wrap .tt_box .box_img:nth-child(4) .bx .bx_txt .sns ul li:hover a{background-color: rgba(255, 255, 255, 0.4);}
+
+.bottom_2 .wrap .tt_box .box_img:nth-child(4) .bx .bx_txt .sns ul li:nth-child(1){border-bottom: none;}
+.bottom_2 .wrap .tt_box .box_img:nth-child(4) .bx .bx_txt .sns ul li:nth-child(2){border-bottom: none;}
+.bottom_2 .wrap .tt_box .box_img:nth-child(4) .bx .bx_txt .sns ul li:nth-child(3){border-bottom: none;}
+
